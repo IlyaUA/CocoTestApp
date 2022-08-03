@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Ilya Kharebashvili' => 'lolilyushka@gmail.com' }
   s.source           = { :git => 'https://github.com/Ilya Kharebashvili/CocoTestApp.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.changelog      = 'https://raw.githubusercontent.com/IlyaUA/CocoSuperApp/main/CHANGELOG.md'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'CocoTestApp/Classes/**/*'
