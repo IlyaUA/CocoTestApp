@@ -1,5 +1,5 @@
 PODS:
-  - CocoTestApp (0.1.0)
+  - CocoTestApp (0.2.0)
 
 DEPENDENCIES:
   - CocoTestApp (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CocoTestApp: 11215393f859aa0d3f130da1dfbda5add7a0b18a
+  CocoTestApp: 79aa6ed31839920081047ca12250e1d956f0096b
 
 PODFILE CHECKSUM: 1229a44ad9461eb2734eecd4d1ace64467584ef0
 
