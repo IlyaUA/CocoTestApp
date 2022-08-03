@@ -25,7 +25,7 @@ There is a test repo for adding changelog file
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ilya Kharebashvili' => 'lolilyushka@gmail.com' }
-  s.source           = { :git => 'https://github.com/Ilya Kharebashvili/CocoTestApp.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/IlyaUA/CocoTestApp.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.changelog      = 'https://raw.githubusercontent.com/IlyaUA/CocoSuperApp/main/CHANGELOG.md'
   s.ios.deployment_target = '10.0'
