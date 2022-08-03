@@ -1,0 +1,16 @@
+PODS:
+  - CocoTestApp (0.1.0)
+
+DEPENDENCIES:
+  - CocoTestApp (from `../`)
+
+EXTERNAL SOURCES:
+  CocoTestApp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoTestApp: 11215393f859aa0d3f130da1dfbda5add7a0b18a
+
+PODFILE CHECKSUM: 1229a44ad9461eb2734eecd4d1ace64467584ef0
+
+COCOAPODS: 1.11.3

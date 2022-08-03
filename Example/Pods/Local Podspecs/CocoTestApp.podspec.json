@@ -1,0 +1,22 @@
+{
+  "name": "CocoTestApp",
+  "version": "0.1.0",
+  "summary": "A short description of CocoTestApp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ilya Kharebashvili/CocoTestApp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ilya Kharebashvili": "lolilyushka@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ilya Kharebashvili/CocoTestApp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CocoTestApp/Classes/**/*"
+}
