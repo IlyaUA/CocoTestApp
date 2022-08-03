@@ -8,26 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		00CD062089EBB182902F7BCFD8F654F1 /* Pods-CocoTestApp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FDF35AA69D94B4882C30F5AE2DCE1B /* Pods-CocoTestApp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		077A27AEF0AA478C13768FE08781AAD4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BFA0D572C37AB47D0CC70081EDD7 /* ReplaceMe.swift */; };
-		298109D0570AE396C2C75B15EB1A3541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3CE63DDCBE4D8537B09F31C963812954 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3E378A90E77BC5EAF48CF6220318FD9F /* Pods-CocoTestApp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 758975129409EA01C4B89001765FE758 /* Pods-CocoTestApp_Example-dummy.m */; };
 		45850D8D88CCE0CC4A734F65B1936CC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4F3ACFBC66082C6A494E61C81AD4B102 /* Pods-CocoTestApp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB2D5F5A17F8C31F7A7CFDA83553DCC /* Pods-CocoTestApp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		504135A7A6729222A57452212F977EA1 /* CocoTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0D55B3C4B545A5608F5244C7A9BFB /* CocoTestApp-dummy.m */; };
+		6AB95F11A4FF25107DF4A71714B34FE5 /* CocoTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E065BFFBA8A211F77C0046278BA4E6 /* CocoTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76E7B91EDDF9755969B045C46D881524 /* CocoTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EEE8F3C6467A0BCE07CB8E738CE94 /* CocoTestApp-dummy.m */; };
 		7A2E78E44747E4B3AD0402D59BDF333A /* Pods-CocoTestApp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 752C2837F1C96F87477101AF55FAE812 /* Pods-CocoTestApp_Tests-dummy.m */; };
 		8C6C1D03D40D0F7D50F5AE5FADD80F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E10F2158594AA24A0F2CAB7818367CEB /* CocoTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44BDB8E624EBE856930AE7D6512C6AB /* CocoTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E1EE3E18253D7AFCEE21749CBA22AC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006A3B848A8664BE5A3830351BE5FFF /* ReplaceMe.swift */; };
+		D47CBD99DF7D0C862328512BBDC38E48 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 6C8A65AE3F766B27FA55DF189588897B /* CHANGELOG.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7049DC10B0A76A4F2B8D1DD5C6BE751B /* PBXContainerItemProxy */ = {
+		434FED10C47F89566AA69B314FDFDF23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B06ACE593C896DF25F6E2C49685C8055;
 			remoteInfo = "Pods-CocoTestApp_Example";
 		};
-		7108EB50D275E2FE84416D626AE1223B /* PBXContainerItemProxy */ = {
+		E5FC8EF58CF10AB681161E6213C7E13A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,38 +39,39 @@
 
 /* Begin PBXFileReference section */
 		018D65B761F11BFA3C0E78A583C62D7C /* Pods-CocoTestApp_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoTestApp_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02B4FC6A1680B87B771C56C40890F38E /* CocoTestApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CocoTestApp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		04E065BFFBA8A211F77C0046278BA4E6 /* CocoTestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoTestApp-umbrella.h"; sourceTree = "<group>"; };
 		05CC2D737D40C5EDF14BE8680C17D861 /* Pods-CocoTestApp_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CocoTestApp_Tests"; path = Pods_CocoTestApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BB0D55B3C4B545A5608F5244C7A9BFB /* CocoTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoTestApp-dummy.m"; sourceTree = "<group>"; };
 		15AE18BBF11321EDEE17DCFEBBC38CFA /* Pods-CocoTestApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoTestApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1C5AF4563569C71F1C5B872A84079C06 /* Pods-CocoTestApp_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoTestApp_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1F42BFA0D572C37AB47D0CC70081EDD7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CocoTestApp/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		23B379C46C39D0909071BBEEACC73022 /* CocoTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoTestApp.debug.xcconfig; sourceTree = "<group>"; };
+		1D8EEE8F3C6467A0BCE07CB8E738CE94 /* CocoTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoTestApp-dummy.m"; sourceTree = "<group>"; };
+		282A8D0FD69FA59741FE76906DE302E9 /* CocoTestApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoTestApp-Info.plist"; sourceTree = "<group>"; };
+		28DAB0B123EC7A3653E05ACE3407CEC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		28EF07963A90830C65509020356B4495 /* Pods-CocoTestApp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoTestApp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2AB8972508BFDC74D96C32160E8BE0DA /* Pods-CocoTestApp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoTestApp_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2ABCD5460E33A7B1034544B7105E6314 /* Pods-CocoTestApp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoTestApp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2AD18CC7D5B835F68AD62E1052C6B1C3 /* Pods-CocoTestApp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoTestApp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B5970D0FA1CFE869D41457CCC81A01A /* Pods-CocoTestApp_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoTestApp_Example-Info.plist"; sourceTree = "<group>"; };
-		4109BA366CCDCF1192847AD089B6C4D6 /* CocoTestApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoTestApp-prefix.pch"; sourceTree = "<group>"; };
-		42FF5778FDB5B117AD05D85713A300EB /* CocoTestApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CocoTestApp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4AB2D5F5A17F8C31F7A7CFDA83553DCC /* Pods-CocoTestApp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoTestApp_Tests-umbrella.h"; sourceTree = "<group>"; };
-		51D4D43F65E4951E72E43702FB93CF31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		585B6B794DC77C5F47A2C299DAAF1B68 /* Pods-CocoTestApp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CocoTestApp_Tests.modulemap"; sourceTree = "<group>"; };
+		5B0A5A5D5DABBA9F55D938DB84ED57C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6609DC1C78F2F2C3E4A906F5FC71A100 /* CocoTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoTestApp.release.xcconfig; sourceTree = "<group>"; };
+		6C8A65AE3F766B27FA55DF189588897B /* CHANGELOG.md */ = {isa = PBXFileReference; includeInIndex = 1; path = CHANGELOG.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		752C2837F1C96F87477101AF55FAE812 /* Pods-CocoTestApp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoTestApp_Tests-dummy.m"; sourceTree = "<group>"; };
 		758975129409EA01C4B89001765FE758 /* Pods-CocoTestApp_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoTestApp_Example-dummy.m"; sourceTree = "<group>"; };
+		77EB5DFA3B6F172B3CC195445026B5D9 /* CocoTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoTestApp.debug.xcconfig; sourceTree = "<group>"; };
+		7EF2336265A2A9100FBAC579A5AEBCBC /* CocoTestApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoTestApp-prefix.pch"; sourceTree = "<group>"; };
 		82E841630C930CE6D9D70612F60CC8F2 /* Pods-CocoTestApp_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoTestApp_Tests-Info.plist"; sourceTree = "<group>"; };
 		94810348A43DCA5183B411CB77F3DF06 /* Pods-CocoTestApp_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CocoTestApp_Example.modulemap"; sourceTree = "<group>"; };
 		95FDF35AA69D94B4882C30F5AE2DCE1B /* Pods-CocoTestApp_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoTestApp_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B290A690316AB691B436CEFA5C0BC2DB /* CocoTestApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoTestApp-Info.plist"; sourceTree = "<group>"; };
-		B44BDB8E624EBE856930AE7D6512C6AB /* CocoTestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoTestApp-umbrella.h"; sourceTree = "<group>"; };
 		BDDCBAA1E042D1AF592A35083A2D12CA /* CocoTestApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoTestApp; path = CocoTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4235CFE94C56D336AA683650EB68DAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C006A3B848A8664BE5A3830351BE5FFF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CocoTestApp/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C5AD29AC2EA600FC78321D5BB6284895 /* Pods-CocoTestApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoTestApp_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C868E2572DDF788958C96006B0D82125 /* CocoTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoTestApp.release.xcconfig; sourceTree = "<group>"; };
 		CE18D3E482983E89182B5A346D29D4D7 /* Pods-CocoTestApp_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CocoTestApp_Example"; path = Pods_CocoTestApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE787DA645BE324BACA39289B51A8941 /* Pods-CocoTestApp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoTestApp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F1B8DE991736DF99D95479795B1724C4 /* CocoTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoTestApp.modulemap; sourceTree = "<group>"; };
+		EF223BCB3F5882F8403A7BFAACB03254 /* CocoTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoTestApp.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17430073ADBFEA61465A12978ED5B228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE63DDCBE4D8537B09F31C963812954 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58369BA4B015EB591CA0DB0EA52C5AD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,26 +99,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6130702FD1A8CE69BE8B04470FACA00C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				298109D0570AE396C2C75B15EB1A3541 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2638ADEA2BC969A27BA12D66DA765777 /* CocoTestApp */ = {
+		256475C8ED61217B9B81BED31172B52A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1F42BFA0D572C37AB47D0CC70081EDD7 /* ReplaceMe.swift */,
-				8BDBC5D04483EBEC7661A9585B3FD373 /* Pod */,
-				E042C512DEF9C7504A8BB4B7E55177A4 /* Support Files */,
+				42CDC8250682580F5769C0FFDB68E08E /* CocoTestApp */,
 			);
-			name = CocoTestApp;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2CFADCD5739CF67B7B013964E607ECCB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				02B4FC6A1680B87B771C56C40890F38E /* CocoTestApp.podspec */,
+				28DAB0B123EC7A3653E05ACE3407CEC8 /* LICENSE */,
+				5B0A5A5D5DABBA9F55D938DB84ED57C1 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3AC2DD23C7FCCF89357B9E3B3302472F /* Pods-CocoTestApp_Example */ = {
@@ -126,6 +135,18 @@
 			);
 			name = "Pods-CocoTestApp_Example";
 			path = "Target Support Files/Pods-CocoTestApp_Example";
+			sourceTree = "<group>";
+		};
+		42CDC8250682580F5769C0FFDB68E08E /* CocoTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A65AE3F766B27FA55DF189588897B /* CHANGELOG.md */,
+				C006A3B848A8664BE5A3830351BE5FFF /* ReplaceMe.swift */,
+				2CFADCD5739CF67B7B013964E607ECCB /* Pod */,
+				65D6563C859E7006CA19CE7D58F37E9E /* Support Files */,
+			);
+			name = CocoTestApp;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		51CAD9C2DCCC4E2F71B8986FA7DBF102 /* Targets Support Files */ = {
@@ -171,29 +192,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BDBC5D04483EBEC7661A9585B3FD373 /* Pod */ = {
+		65D6563C859E7006CA19CE7D58F37E9E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				42FF5778FDB5B117AD05D85713A300EB /* CocoTestApp.podspec */,
-				C4235CFE94C56D336AA683650EB68DAB /* LICENSE */,
-				51D4D43F65E4951E72E43702FB93CF31 /* README.md */,
+				EF223BCB3F5882F8403A7BFAACB03254 /* CocoTestApp.modulemap */,
+				1D8EEE8F3C6467A0BCE07CB8E738CE94 /* CocoTestApp-dummy.m */,
+				282A8D0FD69FA59741FE76906DE302E9 /* CocoTestApp-Info.plist */,
+				7EF2336265A2A9100FBAC579A5AEBCBC /* CocoTestApp-prefix.pch */,
+				04E065BFFBA8A211F77C0046278BA4E6 /* CocoTestApp-umbrella.h */,
+				77EB5DFA3B6F172B3CC195445026B5D9 /* CocoTestApp.debug.xcconfig */,
+				6609DC1C78F2F2C3E4A906F5FC71A100 /* CocoTestApp.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9909EBE04B0AC9F986A4EDF9BC4B1F48 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2638ADEA2BC969A27BA12D66DA765777 /* CocoTestApp */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CocoTestApp";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9909EBE04B0AC9F986A4EDF9BC4B1F48 /* Development Pods */,
+				256475C8ED61217B9B81BED31172B52A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5DFF10456B9B65609884006A5E19726D /* Products */,
 				51CAD9C2DCCC4E2F71B8986FA7DBF102 /* Targets Support Files */,
@@ -208,37 +226,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E042C512DEF9C7504A8BB4B7E55177A4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F1B8DE991736DF99D95479795B1724C4 /* CocoTestApp.modulemap */,
-				0BB0D55B3C4B545A5608F5244C7A9BFB /* CocoTestApp-dummy.m */,
-				B290A690316AB691B436CEFA5C0BC2DB /* CocoTestApp-Info.plist */,
-				4109BA366CCDCF1192847AD089B6C4D6 /* CocoTestApp-prefix.pch */,
-				B44BDB8E624EBE856930AE7D6512C6AB /* CocoTestApp-umbrella.h */,
-				23B379C46C39D0909071BBEEACC73022 /* CocoTestApp.debug.xcconfig */,
-				C868E2572DDF788958C96006B0D82125 /* CocoTestApp.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CocoTestApp";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		02B5CC8E4CBF1E01563FB013BF44EC30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB95F11A4FF25107DF4A71714B34FE5 /* CocoTestApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56C7C3E1EEC74AF71C740EC2836EC957 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4F3ACFBC66082C6A494E61C81AD4B102 /* Pods-CocoTestApp_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B424F11B728FBDEDD1AB94D9CCF0BA8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E10F2158594AA24A0F2CAB7818367CEB /* CocoTestApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +258,12 @@
 /* Begin PBXNativeTarget section */
 		0BE3F4760AF3131FF3C4D9D30CDB7202 /* CocoTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52812469DD3C5D1F4D79989BABAADD3E /* Build configuration list for PBXNativeTarget "CocoTestApp" */;
+			buildConfigurationList = 09BCE79570053D28375C4CCA8CE867DA /* Build configuration list for PBXNativeTarget "CocoTestApp" */;
 			buildPhases = (
-				7B424F11B728FBDEDD1AB94D9CCF0BA8 /* Headers */,
-				8EE4CD62E8901C61741583DB46BDD22C /* Sources */,
-				6130702FD1A8CE69BE8B04470FACA00C /* Frameworks */,
-				FB406A90CBCA57BC1DC87C60F157A3B5 /* Resources */,
+				02B5CC8E4CBF1E01563FB013BF44EC30 /* Headers */,
+				0826FE36D639E094578EDB5AB7FA1711 /* Sources */,
+				17430073ADBFEA61465A12978ED5B228 /* Frameworks */,
+				136D0EA7D2BAE1DD7C6429A89EC82A74 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +286,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C4DDDB9073F959B4F49224FAEE6BF19E /* PBXTargetDependency */,
+				42CC0242AE17EC7A2D0DF3D31F9D35CC /* PBXTargetDependency */,
 			);
 			name = "Pods-CocoTestApp_Tests";
 			productName = Pods_CocoTestApp_Tests;
@@ -302,7 +305,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				99B6647440CA97AA6F8DD41B819F12D0 /* PBXTargetDependency */,
+				00DB4C8D04F7A97B3904A1FF685502BC /* PBXTargetDependency */,
 			);
 			name = "Pods-CocoTestApp_Example";
 			productName = Pods_CocoTestApp_Example;
@@ -339,6 +342,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		136D0EA7D2BAE1DD7C6429A89EC82A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47CBD99DF7D0C862328512BBDC38E48 /* CHANGELOG.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0BEB9B3094C6004B4C7A5409B078569 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,16 +364,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB406A90CBCA57BC1DC87C60F157A3B5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0826FE36D639E094578EDB5AB7FA1711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E7B91EDDF9755969B045C46D881524 /* CocoTestApp-dummy.m in Sources */,
+				B9E1EE3E18253D7AFCEE21749CBA22AC /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B86A6409850F7D38817D30444396076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,33 +392,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EE4CD62E8901C61741583DB46BDD22C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				504135A7A6729222A57452212F977EA1 /* CocoTestApp-dummy.m in Sources */,
-				077A27AEF0AA478C13768FE08781AAD4 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		99B6647440CA97AA6F8DD41B819F12D0 /* PBXTargetDependency */ = {
+		00DB4C8D04F7A97B3904A1FF685502BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoTestApp;
 			target = 0BE3F4760AF3131FF3C4D9D30CDB7202 /* CocoTestApp */;
-			targetProxy = 7108EB50D275E2FE84416D626AE1223B /* PBXContainerItemProxy */;
+			targetProxy = E5FC8EF58CF10AB681161E6213C7E13A /* PBXContainerItemProxy */;
 		};
-		C4DDDB9073F959B4F49224FAEE6BF19E /* PBXTargetDependency */ = {
+		42CC0242AE17EC7A2D0DF3D31F9D35CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CocoTestApp_Example";
 			target = B06ACE593C896DF25F6E2C49685C8055 /* Pods-CocoTestApp_Example */;
-			targetProxy = 7049DC10B0A76A4F2B8D1DD5C6BE751B /* PBXContainerItemProxy */;
+			targetProxy = 434FED10C47F89566AA69B314FDFDF23 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1419E34835623619569E87C091BEF6D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77EB5DFA3B6F172B3CC195445026B5D9 /* CocoTestApp.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoTestApp/CocoTestApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoTestApp/CocoTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoTestApp/CocoTestApp.modulemap";
+				PRODUCT_MODULE_NAME = CocoTestApp;
+				PRODUCT_NAME = CocoTestApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B62752DE0465654D0F8CFA95E3C629D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6609DC1C78F2F2C3E4A906F5FC71A100 /* CocoTestApp.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoTestApp/CocoTestApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoTestApp/CocoTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoTestApp/CocoTestApp.modulemap";
+				PRODUCT_MODULE_NAME = CocoTestApp;
+				PRODUCT_NAME = CocoTestApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		330B5FB18A671BDBCA30A31C0D8A3F22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5AD29AC2EA600FC78321D5BB6284895 /* Pods-CocoTestApp_Example.release.xcconfig */;
@@ -473,37 +540,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		7144FAC3BFC556F850F4259D2E95A7D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23B379C46C39D0909071BBEEACC73022 /* CocoTestApp.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoTestApp/CocoTestApp-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoTestApp/CocoTestApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoTestApp/CocoTestApp.modulemap";
-				PRODUCT_MODULE_NAME = CocoTestApp;
-				PRODUCT_NAME = CocoTestApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -599,38 +635,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A95857BDB39C306B9212DBC7934BB012 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C868E2572DDF788958C96006B0D82125 /* CocoTestApp.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoTestApp/CocoTestApp-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoTestApp/CocoTestApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoTestApp/CocoTestApp.modulemap";
-				PRODUCT_MODULE_NAME = CocoTestApp;
-				PRODUCT_NAME = CocoTestApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -743,20 +747,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		09BCE79570053D28375C4CCA8CE867DA /* Build configuration list for PBXNativeTarget "CocoTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1419E34835623619569E87C091BEF6D7 /* Debug */,
+				2B62752DE0465654D0F8CFA95E3C629D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52812469DD3C5D1F4D79989BABAADD3E /* Build configuration list for PBXNativeTarget "CocoTestApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7144FAC3BFC556F850F4259D2E95A7D7 /* Debug */,
-				A95857BDB39C306B9212DBC7934BB012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

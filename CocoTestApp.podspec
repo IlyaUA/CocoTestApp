@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoTestApp'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Test repo for testing adding CHANGELOG file'
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,7 @@ There is a test repo for adding changelog file
   s.changelog      = 'https://raw.githubusercontent.com/IlyaUA/CocoSuperApp/main/CHANGELOG.md'
   s.ios.deployment_target = '10.0'
   s.resource = 'CHANGELOG.md'
+  s.source_files = 'CHANGELOG.md'
   s.source_files = 'CocoTestApp/Classes/**/*'
   s.swift_version = '4.0'
   # s.resource_bundles = {
